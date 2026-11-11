@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Tabletop — your data, all together",
+  title: "Tabletop",
   description: "A cheerful workspace for your users, products, categories, and orders.",
 };
 
