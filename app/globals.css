@@ -140,7 +140,7 @@ button:focus-visible, a:focus-visible, input:focus-visible { outline: 3px solid 
 .auth-footer a { display: inline-flex; align-items: center; gap: 5px; color: #686459; font-weight: 700; }
 
 .dashboard-shell { min-height: 100vh; display: grid; grid-template-columns: 245px minmax(0, 1fr); background: #fffef7; }
-.sidebar { min-height: 100vh; position: sticky; top: 0; display: flex; flex-direction: column; padding: 26px 15px 14px; border-right: 1px solid #e7e4d8; background: #fffefa; }
+.sidebar { height: 100vh; min-height: 100vh; position: sticky; top: 0; align-self: start; display: flex; flex-direction: column; padding: 26px 15px 14px; border-right: 1px solid #e7e4d8; background: #fffefa; }
 .sidebar-brand { padding: 0 8px 26px; font-size: 18px; }
 .workspace-label, .nav-caption { padding: 0 10px; color: #a09a8e; font-size: 10px; font-weight: 800; letter-spacing: 1px; }
 .workspace-picker { display: flex; align-items: center; gap: 9px; margin: 10px 0 28px; padding: 9px; border: 1px solid #e9e6db; border-radius: 9px; background: #fff; }
@@ -246,7 +246,7 @@ button:focus-visible, a:focus-visible, input:focus-visible { outline: 3px solid 
   .auth-aside > p { max-width: 430px; font-size: 13px; }
   .auth-aside-note { display: none; }
   .dashboard-shell { display: block; }
-  .sidebar { min-height: auto; position: static; padding: 12px 16px; border-right: 0; border-bottom: 1px solid #e7e4d8; }
+  .sidebar { height: auto; min-height: auto; position: static; padding: 12px 16px; border-right: 0; border-bottom: 1px solid #e7e4d8; }
   .sidebar-brand { padding: 0 0 10px; }
   .workspace-label, .workspace-picker, .sidebar-bottom, .nav-caption { display: none; }
   .side-nav { flex-direction: row; gap: 5px; overflow-x: auto; padding: 4px 0 2px; }
